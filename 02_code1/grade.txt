@@ -1,4 +1,4 @@
-Grading at Sun Jul 19 20:04:16 UTC 2020
+Grading at Sun Jul 19 20:40:19 UTC 2020
 Checking code1.c for legal syntax
 temp.c: In function ‘main’:
 temp.c:14:10: error: missing terminating " character [-Werror]
