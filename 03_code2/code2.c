@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 int printTriangle(int size) {
   //start with starCount being 0
  int starCount = 0;
