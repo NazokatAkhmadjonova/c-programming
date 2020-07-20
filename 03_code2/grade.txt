@@ -1,7 +1,27 @@
-Grading at Mon Jul 20 15:31:29 UTC 2020
+Grading at Mon Jul 20 15:37:33 UTC 2020
 Checking code2.c for legal syntax
-temp.c:3:20: fatal error: studio.h: No such file or directory
-compilation terminated.
-The code did not have legal syntax!
+Checking for int printTriangle (int size)
+Found on line 4, column 1 
+Checking for int main(void)
+Found on line 27, column 1 
+Trying to run the code..
+Line_7_did_not_match
+Your file did not match the expected ouput
+Here is what you printed
+Here is a triangle with height 4
+*
+**
+***
+****
+That triangle had 10 total stars
+Here is a tringle with height 7
+*
+**
+***
+****
+*****
+******
+*******
+That triangle had 28 total stars
 
 Overall Grade: F
