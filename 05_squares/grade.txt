@@ -1,0 +1,30 @@
+Grading at Fri Jul 24 18:48:13 UTC 2020
+Trying to compile your code and link with squares_test.o
+squares.c: In function ‘squares’:
+squares.c:36:37: error: expected ‘)’ before ‘+’ token
+   int max (int size1, int (x_offset + size2)){
+                                     ^
+squares.c:45:37: error: expected ‘)’ before ‘+’ token
+   int max (int size1, int (y_offset + size2)){
+                                     ^
+squares.c:49:19: error: ‘h’ undeclared (first use in this function)
+   for (int y=0; y<h; y++){
+                   ^
+squares.c:49:19: note: each undeclared identifier is reported only once for each function it appears in
+squares.c:52:21: error: ‘w’ undeclared (first use in this function)
+     for (int x=0; x<w; x++){
+                     ^
+squares.c:64:25: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+       }else if((x<size1 && (y==0|| y== (size1-1))||
+                         ^
+squares.c:65:43: error: expected ‘)’ before ‘{’ token
+   (y< size1 && (x == 0 || x == (size1-1))){
+                                           ^
+squares.c:74:7: error: expected ‘)’ before ‘}’ token
+       }
+       ^
+squares.c:74:7: error: expected expression before ‘}’ token
+cc1: all warnings being treated as errors
+Could not compile your code
+
+Overall Grade: FAILED
